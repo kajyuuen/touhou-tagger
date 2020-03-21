@@ -48,6 +48,7 @@ class TouhouTagger:
 
         if self.info[album_name] is not None and track_num in self.info[album_name]["songs"]:
             origin_music = self.info[album_name]["songs"][track_num]["origin_music"]
+            print("  - {}".format(origin_music))
             self._set_tag(audiofile, origin_music)
 
 if __name__ == "__main__":
