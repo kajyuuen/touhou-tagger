@@ -1,0 +1,4 @@
+test_mp3
+.venv
+.mypy_cache
+__pycache__
